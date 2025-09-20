@@ -20,7 +20,7 @@ body {
 
 /* Titres */
 h1, .display-4 {
-  font-size: 3.5rem; /* hero principal XXL */
+  font-size: 3.5rem;
 }
 h2 {
   font-size: 2.5rem; /* titres sections */
@@ -30,13 +30,13 @@ h5, .card-title {
 }
 
 h6 {
-  font-size: 1.4rem; /* ou plus si tu veux */
+  font-size: 1.4rem; 
   font-weight: 600;
 }
 
 .navbar-brand img {
   height: 80px;   /* Taille du logo */
-  width: auto;    /* Garde les proportions */
+  width: auto;    
 }
 
 
@@ -90,5 +90,6 @@ footer h5 {
 #services .fs-1 {
   font-size: 4rem !important;
 }
+
 
 

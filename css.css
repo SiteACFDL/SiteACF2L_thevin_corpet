@@ -1,0 +1,94 @@
+:root {
+  --bleu-clair: #00C1D0;
+  --bleu-fonce: #0597A3;
+}
+
+/* Texte global */
+body {
+  font-size: 1.3rem; /* beaucoup plus lisible */
+  line-height: 1.8;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--bleu-clair) !important;
+}
+.navbar .nav-link {
+  font-size: 1.3rem; /* menu bien visible */
+  font-weight: 600;
+}
+
+/* Titres */
+h1, .display-4 {
+  font-size: 3.5rem; /* hero principal XXL */
+}
+h2 {
+  font-size: 2.5rem; /* titres sections */
+}
+h5, .card-title {
+  font-size: 1.7rem; /* titres des cartes */
+}
+
+h6 {
+  font-size: 1.4rem; /* ou plus si tu veux */
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 80px;   /* Taille du logo */
+  width: auto;    /* Garde les proportions */
+}
+
+
+/* Paragraphes et listes */
+p, li {
+  font-size: 1.3rem; /* texte courant plus gros */
+}
+
+/* Boutons */
+.btn {
+  font-size: 1.3rem;
+  padding: 0.7rem 1.4rem;
+}
+
+/* Section Hero */
+#hero {
+  background: url('../Site_ACF2L/images/nuage.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+}
+#hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Galerie */
+#galerie img {
+  border-radius: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--bleu-fonce);
+  color: white;
+  font-size: 1.2rem;
+}
+footer h5 {
+  font-size: 1.6rem;
+}
+
+/*icone nos services aggrandir*/
+#services .fs-1 {
+  font-size: 4rem !important;
+}
+
+

@@ -5,7 +5,7 @@
 
 /* Texte global */
 body {
-  font-size: 1.3rem; /* beaucoup plus lisible */
+  font-size: 1.3rem;
   line-height: 1.8;
 }
 
@@ -14,13 +14,13 @@ body {
   background-color: var(--bleu-clair) !important;
 }
 .navbar .nav-link {
-  font-size: 1.3rem; /* menu bien visible */
+  font-size: 1.3rem; /* menu */
   font-weight: 600;
 }
 
 /* Titres */
 h1, .display-4 {
-  font-size: 3.5rem;
+  font-size: 3.5rem; /* hero principal */
 }
 h2 {
   font-size: 2.5rem; /* titres sections */
@@ -36,13 +36,13 @@ h6 {
 
 .navbar-brand img {
   height: 80px;   /* Taille du logo */
-  width: auto;    
+  width: auto;   
 }
 
 
 /* Paragraphes et listes */
 p, li {
-  font-size: 1.3rem; /* texte courant plus gros */
+  font-size: 1.3rem;
 }
 
 /* Boutons */
@@ -51,25 +51,7 @@ p, li {
   padding: 0.7rem 1.4rem;
 }
 
-/* Section Hero */
-#hero {
-  background: url('../Site_ACF2L/images/nuage.jpg') center/cover no-repeat;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  color: white;
-  position: relative;
-}
-#hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.3);
-}
-#hero .container {
-  position: relative;
-  z-index: 2;
-}
+
 
 /* Galerie */
 #galerie img {
@@ -90,6 +72,7 @@ footer h5 {
 #services .fs-1 {
   font-size: 4rem !important;
 }
+
 
 
 
